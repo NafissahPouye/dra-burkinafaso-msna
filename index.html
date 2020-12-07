@@ -51,14 +51,14 @@ code > span.ot { color: #007020; }
     <section id="main-content">
 <div id="input-data" class="section level2">
 <h2>Input Data</h2>
-<p>The data set consists of <strong>5956</strong> observations</p>
+<p>The data set consists of <strong>209</strong> observations</p>
 </div>
 <div id="information-on-selected-important-key-variables" class="section level2">
 <h2>Information on selected important (key) variables</h2>
 <ul>
-<li><strong>Categorical key variable(s)</strong>: <em>admin3</em> | <em>ic_genre</em> | <em>chef_menage</em> | <em>situation_matrimoniale</em> | <em>profession_chef</em> | <em>group_pop</em></li>
+<li><strong>Categorical key variable(s)</strong>: <em>Section_communale</em> | <em>Localite</em> | <em>chef_de_menage</em> | <em>Sexe_chef_menage</em> | <em>Commune</em></li>
 <li><strong>Continuous key variable(s)</strong>: <em>not defined</em></li>
-<li><strong>Weight variable</strong>: <em>weights_sampling_admin2</em></li>
+<li><strong>Weight variable</strong>: <em>not defined</em></li>
 <li><strong>householdID</strong>: <em>not defined</em></li>
 <li><strong>strataVariable(s)</strong>: <em>not defined</em></li>
 </ul>
@@ -79,15 +79,15 @@ code > span.ot { color: #007020; }
 <div id="number-of-observations-violating" class="section level4">
 <h4>Number of observations violating</h4>
 <ul>
-<li><strong>2-Anonymity:</strong> 1663 (original dataset: 1663)</li>
-<li><strong>3-Anonymity:</strong> 2495 (original dataset: 2495)</li>
+<li><strong>2-Anonymity:</strong> 90 (original dataset: 90)</li>
+<li><strong>3-Anonymity:</strong> 132 (original dataset: 132)</li>
 </ul>
 </div>
 <div id="percentage-of-observations-violating" class="section level4">
 <h4>Percentage of observations violating</h4>
 <ul>
-<li><strong>2-Anonymity:</strong> 27.921% (original dataset: 27.921%)</li>
-<li><strong>3-Anonymity:</strong> 41.891% (original dataset: 41.891%)</li>
+<li><strong>2-Anonymity:</strong> 43.062% (original dataset: 43.062%)</li>
+<li><strong>3-Anonymity:</strong> 63.158% (original dataset: 63.158%)</li>
 </ul>
 </div>
 </div>
@@ -95,20 +95,19 @@ code > span.ot { color: #007020; }
 <h3>Disclosure Risk for Categorical Variables</h3>
 <p>Expected Percentage of Reidentifications:</p>
 <ul>
-<li><strong>modified data</strong>: 2.457% (~ 146.310 observations)</li>
-<li><strong>original data</strong>: 2.457% (~ 146.310 observations)</li>
+<li><strong>modified data</strong>: 62.627% (~ 130.889 observations)</li>
+<li><strong>original data</strong>: 62.627% (~ 130.889 observations)</li>
 </ul>
 <div id="combinations-of-categories-with-highest-risks" class="section level4">
 <h4>10 combinations of categories with highest risks</h4>
 <table>
 <thead>
 <tr class="header">
-<th align="left">admin3</th>
-<th align="left">ic_genre</th>
-<th align="left">chef_menage</th>
-<th align="left">situation_matrimoniale</th>
-<th align="left">profession_chef</th>
-<th align="left">group_pop</th>
+<th align="left">Section_communale</th>
+<th align="left">Localite</th>
+<th align="left">chef_de_menage</th>
+<th align="left">Sexe_chef_menage</th>
+<th align="left">Commune</th>
 <th align="left">risk</th>
 <th align="right">fk</th>
 <th align="right">Fk</th>
@@ -116,114 +115,104 @@ code > span.ot { color: #007020; }
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">djibasso</td>
-<td align="left">homme</td>
-<td align="left">oui</td>
-<td align="left">marie_polygame</td>
-<td align="left">chomeur</td>
-<td align="left">pdi</td>
+<td align="left">1ère Dolan</td>
+<td align="left">Rocher2</td>
+<td align="left">Non</td>
+<td align="left">H</td>
+<td align="left">Terre Neuve</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">djibasso</td>
-<td align="left">homme</td>
-<td align="left">oui</td>
-<td align="left">marie_monogame</td>
-<td align="left">independant</td>
-<td align="left">pdi</td>
+<td align="left">3ème Lagon</td>
+<td align="left">bas gromorne</td>
+<td align="left">Oui</td>
+<td align="left">H</td>
+<td align="left">Terre Neuve</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
 </tr>
 <tr class="odd">
-<td align="left">djibasso</td>
-<td align="left">homme</td>
-<td align="left">oui</td>
-<td align="left">marie_polygame</td>
-<td align="left">agriculteur</td>
-<td align="left">pdi</td>
+<td align="left">1ère Dolan</td>
+<td align="left">Haut-Platon</td>
+<td align="left">Oui</td>
+<td align="left">F</td>
+<td align="left">Terre Neuve</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">djibasso</td>
-<td align="left">homme</td>
-<td align="left">non</td>
-<td align="left">marie_polygame</td>
-<td align="left">agriculteur</td>
-<td align="left">pdi</td>
+<td align="left">3ème Lagon</td>
+<td align="left">Riske</td>
+<td align="left">Oui</td>
+<td align="left">F</td>
+<td align="left">Terre Neuve</td>
 <td align="left">1.000</td>
 <td align="right">1</td>
 <td align="right">1</td>
 </tr>
 <tr class="odd">
-<td align="left">kossouka</td>
-<td align="left">homme</td>
-<td align="left">oui</td>
-<td align="left">marie_monogame</td>
-<td align="left">profession_non</td>
-<td align="left">pdi</td>
-<td align="left">0.693</td>
+<td align="left">3ème Lagon</td>
+<td align="left">mòn kayimit</td>
+<td align="left">Oui</td>
+<td align="left">H</td>
+<td align="left">Terre Neuve</td>
+<td align="left">1.000</td>
 <td align="right">1</td>
-<td align="right">2</td>
+<td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">kossouka</td>
-<td align="left">femme</td>
-<td align="left">non</td>
-<td align="left">marie_polygame</td>
-<td align="left">autre</td>
-<td align="left">pdi</td>
-<td align="left">0.693</td>
+<td align="left">1ère Dolan</td>
+<td align="left">Nan moulen</td>
+<td align="left">Oui</td>
+<td align="left">H</td>
+<td align="left">Terre Neuve</td>
+<td align="left">1.000</td>
 <td align="right">1</td>
-<td align="right">2</td>
+<td align="right">1</td>
 </tr>
 <tr class="odd">
-<td align="left">kossouka</td>
-<td align="left">homme</td>
-<td align="left">oui</td>
-<td align="left">marie_monogame</td>
-<td align="left">chomeur</td>
-<td align="left">pdi</td>
-<td align="left">0.693</td>
+<td align="left">1ère L’Arbre</td>
+<td align="left">La Valée</td>
+<td align="left">Oui</td>
+<td align="left">F</td>
+<td align="left">Anse Rouge</td>
+<td align="left">1.000</td>
 <td align="right">1</td>
-<td align="right">2</td>
+<td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">kossouka</td>
-<td align="left">homme</td>
-<td align="left">non</td>
-<td align="left">marie_monogame</td>
-<td align="left">agriculteur</td>
-<td align="left">pdi</td>
-<td align="left">0.693</td>
+<td align="left">3ème Lagon</td>
+<td align="left">Nan banbou</td>
+<td align="left">Oui</td>
+<td align="left">H</td>
+<td align="left">Terre Neuve</td>
+<td align="left">1.000</td>
 <td align="right">1</td>
-<td align="right">2</td>
+<td align="right">1</td>
 </tr>
 <tr class="odd">
-<td align="left">thiou</td>
-<td align="left">homme</td>
-<td align="left">non</td>
-<td align="left">marie_polygame</td>
-<td align="left">agriculteur</td>
-<td align="left">pdi</td>
-<td align="left">0.549</td>
+<td align="left">3ème Lagon</td>
+<td align="left">Tè Sable</td>
+<td align="left">Oui</td>
+<td align="left">F</td>
+<td align="left">Terre Neuve</td>
+<td align="left">1.000</td>
 <td align="right">1</td>
-<td align="right">3</td>
+<td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">thiou</td>
-<td align="left">femme</td>
-<td align="left">oui</td>
-<td align="left">marie_veuf</td>
-<td align="left">independant</td>
-<td align="left">pdi</td>
-<td align="left">0.549</td>
+<td align="left">1ère L’Arbre</td>
+<td align="left">Nan tuyo</td>
+<td align="left">Oui</td>
+<td align="left">F</td>
+<td align="left">Anse Rouge</td>
+<td align="left">1.000</td>
 <td align="right">1</td>
-<td align="right">3</td>
+<td align="right">1</td>
 </tr>
 </tbody>
 </table>
@@ -234,8 +223,8 @@ code > span.ot { color: #007020; }
 <h2>Data Utility</h2>
 <div id="frequencies-categorical-key-variables" class="section level3">
 <h3>Frequencies Categorical Key Variables:</h3>
-<div id="variable-admin3" class="section level4">
-<h4>Variable: <em>admin3</em></h4>
+<div id="variable-section_communale" class="section level4">
+<h4>Variable: <em>Section_communale</em></h4>
 <table>
 <thead>
 <tr class="header">
@@ -246,1240 +235,30 @@ code > span.ot { color: #007020; }
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">andemtenga</td>
-<td align="right">7</td>
-<td align="right">7</td>
+<td align="left">1ère Dolan</td>
+<td align="right">46</td>
+<td align="right">46</td>
 </tr>
 <tr class="even">
-<td align="left">arbinda</td>
-<td align="right">62</td>
-<td align="right">62</td>
+<td align="left">1ère L’Arbre</td>
+<td align="right">86</td>
+<td align="right">86</td>
 </tr>
 <tr class="odd">
-<td align="left">arbole</td>
-<td align="right">12</td>
-<td align="right">12</td>
+<td align="left">2ème Sources Chaudes</td>
+<td align="right">1</td>
+<td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">bagare</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="odd">
-<td align="left">bagassi</td>
-<td align="right">30</td>
-<td align="right">30</td>
-</tr>
-<tr class="even">
-<td align="left">bagre</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="odd">
-<td align="left">bama</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">bana</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">banfora</td>
-<td align="right">48</td>
-<td align="right">48</td>
-</tr>
-<tr class="even">
-<td align="left">banh</td>
-<td align="right">34</td>
-<td align="right">34</td>
-</tr>
-<tr class="odd">
-<td align="left">bani</td>
-<td align="right">27</td>
-<td align="right">27</td>
-</tr>
-<tr class="even">
-<td align="left">baraboule</td>
-<td align="right">7</td>
-<td align="right">7</td>
-</tr>
-<tr class="odd">
-<td align="left">barani</td>
-<td align="right">20</td>
-<td align="right">20</td>
-</tr>
-<tr class="even">
-<td align="left">barga</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="odd">
-<td align="left">barsalogho</td>
-<td align="right">53</td>
-<td align="right">53</td>
-</tr>
-<tr class="even">
-<td align="left">bartiebougou</td>
-<td align="right">21</td>
-<td align="right">21</td>
-</tr>
-<tr class="odd">
-<td align="left">baskoure</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">bassi</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="odd">
-<td align="left">bere</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">beregadougou</td>
-<td align="right">10</td>
-<td align="right">10</td>
-</tr>
-<tr class="odd">
-<td align="left">bieha</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">bilanga</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="odd">
-<td align="left">binde</td>
-<td align="right">9</td>
-<td align="right">9</td>
-</tr>
-<tr class="even">
-<td align="left">boala</td>
-<td align="right">27</td>
-<td align="right">27</td>
-</tr>
-<tr class="odd">
-<td align="left">bobo_dioulasso</td>
-<td align="right">73</td>
-<td align="right">73</td>
-</tr>
-<tr class="even">
-<td align="left">bogande</td>
-<td align="right">32</td>
-<td align="right">32</td>
-</tr>
-<tr class="odd">
-<td align="left">bokin</td>
-<td align="right">24</td>
-<td align="right">24</td>
-</tr>
-<tr class="even">
-<td align="left">bomborokuy</td>
-<td align="right">45</td>
-<td align="right">45</td>
-</tr>
-<tr class="odd">
-<td align="left">boromo</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="even">
-<td align="left">botou</td>
-<td align="right">18</td>
-<td align="right">18</td>
-</tr>
-<tr class="odd">
-<td align="left">boudry</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="even">
-<td align="left">boulsa</td>
-<td align="right">17</td>
-<td align="right">17</td>
-</tr>
-<tr class="odd">
-<td align="left">boundore</td>
-<td align="right">15</td>
-<td align="right">15</td>
-</tr>
-<tr class="even">
-<td align="left">bouroum</td>
-<td align="right">56</td>
-<td align="right">56</td>
-</tr>
-<tr class="odd">
-<td align="left">bourzanga</td>
-<td align="right">73</td>
-<td align="right">73</td>
-</tr>
-<tr class="even">
-<td align="left">bousse</td>
-<td align="right">9</td>
-<td align="right">9</td>
-</tr>
-<tr class="odd">
-<td align="left">boussera</td>
-<td align="right">7</td>
-<td align="right">7</td>
-</tr>
-<tr class="even">
-<td align="left">boussou</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">boussouma</td>
-<td align="right">40</td>
-<td align="right">40</td>
-</tr>
-<tr class="even">
-<td align="left">cassou</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">coalla</td>
-<td align="right">5</td>
-<td align="right">5</td>
-</tr>
-<tr class="even">
-<td align="left">dablo</td>
-<td align="right">13</td>
-<td align="right">13</td>
-</tr>
-<tr class="odd">
-<td align="left">dalo</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">dano</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="odd">
-<td align="left">dapelogo</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">dargo</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="odd">
-<td align="left">dassa</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">dedougou</td>
-<td align="right">50</td>
-<td align="right">50</td>
-</tr>
-<tr class="odd">
-<td align="left">deou</td>
-<td align="right">42</td>
-<td align="right">42</td>
-</tr>
-<tr class="even">
-<td align="left">di</td>
-<td align="right">43</td>
-<td align="right">43</td>
-</tr>
-<tr class="odd">
-<td align="left">diabo</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="even">
-<td align="left">dialgaye</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">diapaga</td>
-<td align="right">39</td>
-<td align="right">39</td>
-</tr>
-<tr class="even">
-<td align="left">diapangou</td>
-<td align="right">20</td>
-<td align="right">20</td>
-</tr>
-<tr class="odd">
-<td align="left">didyr</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">diebougou</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">diguel</td>
-<td align="right">3</td>
-<td align="right">3</td>
-</tr>
-<tr class="even">
-<td align="left">dissin</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">djibasso</td>
-<td align="right">14</td>
-<td align="right">14</td>
-</tr>
-<tr class="even">
-<td align="left">djibo</td>
-<td align="right">132</td>
-<td align="right">132</td>
-</tr>
-<tr class="odd">
-<td align="left">djigoue</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">dokuy</td>
-<td align="right">29</td>
-<td align="right">29</td>
-</tr>
-<tr class="odd">
-<td align="left">dori</td>
-<td align="right">169</td>
-<td align="right">169</td>
-</tr>
-<tr class="even">
-<td align="left">doulougou</td>
-<td align="right">14</td>
-<td align="right">14</td>
-</tr>
-<tr class="odd">
-<td align="left">doumbala</td>
-<td align="right">10</td>
-<td align="right">10</td>
-</tr>
-<tr class="even">
-<td align="left">fada_n_gourma</td>
-<td align="right">162</td>
-<td align="right">162</td>
-</tr>
-<tr class="odd">
-<td align="left">fara</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">foutouri</td>
-<td align="right">20</td>
-<td align="right">20</td>
-</tr>
-<tr class="odd">
-<td align="left">gaongo</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">gaoua</td>
-<td align="right">9</td>
-<td align="right">9</td>
-</tr>
-<tr class="odd">
-<td align="left">garango</td>
-<td align="right">19</td>
-<td align="right">19</td>
-</tr>
-<tr class="even">
-<td align="left">gassan</td>
-<td align="right">35</td>
-<td align="right">35</td>
-</tr>
-<tr class="odd">
-<td align="left">gayeri</td>
-<td align="right">134</td>
-<td align="right">134</td>
-</tr>
-<tr class="even">
-<td align="left">gbomblora</td>
-<td align="right">3</td>
-<td align="right">3</td>
-</tr>
-<tr class="odd">
-<td align="left">godyr</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="even">
-<td align="left">gogo</td>
-<td align="right">5</td>
-<td align="right">5</td>
-</tr>
-<tr class="odd">
-<td align="left">gomboro</td>
-<td align="right">6</td>
-<td align="right">6</td>
-</tr>
-<tr class="even">
-<td align="left">gomboussougou</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="odd">
-<td align="left">gomponson</td>
-<td align="right">7</td>
-<td align="right">7</td>
-</tr>
-<tr class="even">
-<td align="left">gorgadji</td>
-<td align="right">67</td>
-<td align="right">67</td>
-</tr>
-<tr class="odd">
-<td align="left">gorom_gorom</td>
-<td align="right">202</td>
-<td align="right">202</td>
-</tr>
-<tr class="even">
-<td align="left">gossina</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">gounghin</td>
-<td align="right">3</td>
-<td align="right">3</td>
-</tr>
-<tr class="even">
-<td align="left">gourcy</td>
-<td align="right">88</td>
-<td align="right">88</td>
-</tr>
-<tr class="odd">
-<td align="left">gueguere</td>
-<td align="right">20</td>
-<td align="right">20</td>
-</tr>
-<tr class="even">
-<td align="left">guiaro</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">guiba</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">guibare</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">hounde</td>
-<td align="right">23</td>
-<td align="right">23</td>
-</tr>
-<tr class="even">
-<td align="left">imasgo</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="odd">
-<td align="left">iolonioro</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="even">
-<td align="left">kain</td>
-<td align="right">41</td>
-<td align="right">41</td>
-</tr>
-<tr class="odd">
-<td align="left">kalsaka</td>
-<td align="right">14</td>
-<td align="right">14</td>
-</tr>
-<tr class="even">
-<td align="left">kampti</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">kando</td>
-<td align="right">25</td>
-<td align="right">25</td>
-</tr>
-<tr class="even">
-<td align="left">kantchari</td>
-<td align="right">72</td>
-<td align="right">72</td>
-</tr>
-<tr class="odd">
-<td align="left">karangasso_sambla</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">karangasso_vigue</td>
-<td align="right">15</td>
-<td align="right">15</td>
-</tr>
-<tr class="odd">
-<td align="left">kaya</td>
-<td align="right">82</td>
-<td align="right">82</td>
-</tr>
-<tr class="even">
-<td align="left">kayan</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">kelbo</td>
-<td align="right">18</td>
-<td align="right">18</td>
-</tr>
-<tr class="even">
-<td align="left">kiembara</td>
-<td align="right">24</td>
-<td align="right">24</td>
-</tr>
-<tr class="odd">
-<td align="left">kindi</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">kirsi</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">kogo</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">kokologo</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">kombissiri</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="even">
-<td align="left">kompienga</td>
-<td align="right">40</td>
-<td align="right">40</td>
-</tr>
-<tr class="odd">
-<td align="left">komtoega</td>
-<td align="right">10</td>
-<td align="right">10</td>
-</tr>
-<tr class="even">
-<td align="left">kona</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">kongoussi</td>
-<td align="right">97</td>
-<td align="right">97</td>
-</tr>
-<tr class="even">
-<td align="left">korsimoro</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">kossouka</td>
-<td align="right">20</td>
-<td align="right">20</td>
-</tr>
-<tr class="even">
-<td align="left">koti</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">koubri</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">koudougou</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="odd">
-<td align="left">kougny</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="even">
-<td align="left">kouka</td>
-<td align="right">54</td>
-<td align="right">54</td>
-</tr>
-<tr class="odd">
-<td align="left">koumbri</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="even">
-<td align="left">kourouma</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">kyon</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">la_todin</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">lalgaye</td>
-<td align="right">11</td>
-<td align="right">11</td>
-</tr>
-<tr class="even">
-<td align="left">lanfiera</td>
-<td align="right">14</td>
-<td align="right">14</td>
-</tr>
-<tr class="odd">
-<td align="left">lankoue</td>
-<td align="right">18</td>
-<td align="right">18</td>
-</tr>
-<tr class="even">
-<td align="left">leba</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="odd">
-<td align="left">lena</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">leo</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">liptougou</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="even">
-<td align="left">logobou</td>
-<td align="right">20</td>
-<td align="right">20</td>
-</tr>
-<tr class="odd">
-<td align="left">loropeni</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">loumbila</td>
-<td align="right">21</td>
-<td align="right">21</td>
-</tr>
-<tr class="odd">
-<td align="left">madjoari</td>
-<td align="right">14</td>
-<td align="right">14</td>
-</tr>
-<tr class="even">
-<td align="left">madouba</td>
-<td align="right">3</td>
-<td align="right">3</td>
-</tr>
-<tr class="odd">
-<td align="left">malba</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">mane</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="odd">
-<td align="left">manga</td>
-<td align="right">14</td>
-<td align="right">14</td>
-</tr>
-<tr class="even">
-<td align="left">mangodara</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">mani</td>
-<td align="right">42</td>
-<td align="right">42</td>
-</tr>
-<tr class="even">
-<td align="left">mansila</td>
-<td align="right">29</td>
-<td align="right">29</td>
-</tr>
-<tr class="odd">
-<td align="left">markoye</td>
-<td align="right">45</td>
-<td align="right">45</td>
-</tr>
-<tr class="even">
-<td align="left">matiacoali</td>
-<td align="right">35</td>
-<td align="right">35</td>
-</tr>
-<tr class="odd">
-<td align="left">meguet</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">mogtedo</td>
-<td align="right">21</td>
-<td align="right">21</td>
-</tr>
-<tr class="odd">
-<td align="left">morolaba</td>
-<td align="right">3</td>
-<td align="right">3</td>
-</tr>
-<tr class="even">
-<td align="left">moussodougou</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">n_dorola</td>
-<td align="right">5</td>
-<td align="right">5</td>
-</tr>
-<tr class="even">
-<td align="left">nagreongo</td>
-<td align="right">66</td>
-<td align="right">66</td>
-</tr>
-<tr class="odd">
-<td align="left">namissiguima</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="even">
-<td align="left">namounou</td>
-<td align="right">27</td>
-<td align="right">27</td>
-</tr>
-<tr class="odd">
-<td align="left">niangoloko</td>
-<td align="right">26</td>
-<td align="right">26</td>
-</tr>
-<tr class="even">
-<td align="left">niaogo</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">niou</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">nobere</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">nouna</td>
-<td align="right">142</td>
-<td align="right">142</td>
-</tr>
-<tr class="even">
-<td align="left">orodara</td>
-<td align="right">21</td>
-<td align="right">21</td>
-</tr>
-<tr class="odd">
-<td align="left">oronkua</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">ouagadougou</td>
-<td align="right">115</td>
-<td align="right">115</td>
-</tr>
-<tr class="odd">
-<td align="left">ouahigouya</td>
-<td align="right">80</td>
-<td align="right">80</td>
-</tr>
-<tr class="even">
-<td align="left">ouargaye</td>
-<td align="right">26</td>
-<td align="right">26</td>
-</tr>
-<tr class="odd">
-<td align="left">ouarkoye</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="even">
-<td align="left">ouindigui</td>
-<td align="right">73</td>
-<td align="right">73</td>
-</tr>
-<tr class="odd">
-<td align="left">oula</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">ouo</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">ouri</td>
-<td align="right">41</td>
-<td align="right">41</td>
-</tr>
-<tr class="even">
-<td align="left">oursi</td>
-<td align="right">9</td>
-<td align="right">9</td>
-</tr>
-<tr class="odd">
-<td align="left">pa</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="even">
-<td align="left">pabre</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">pama</td>
-<td align="right">60</td>
-<td align="right">60</td>
-</tr>
-<tr class="even">
-<td align="left">partiaga</td>
-<td align="right">21</td>
-<td align="right">21</td>
-</tr>
-<tr class="odd">
-<td align="left">pella</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">pensa</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="odd">
-<td align="left">pibaore</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">piela</td>
-<td align="right">25</td>
-<td align="right">25</td>
-</tr>
-<tr class="odd">
-<td align="left">pilimpikou</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">pissila</td>
-<td align="right">18</td>
-<td align="right">18</td>
-</tr>
-<tr class="odd">
-<td align="left">po</td>
-<td align="right">23</td>
-<td align="right">23</td>
-</tr>
-<tr class="even">
-<td align="left">pobe_mangao</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">pompoi</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">poura</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="odd">
-<td align="left">pouytenga</td>
-<td align="right">67</td>
-<td align="right">67</td>
-</tr>
-<tr class="even">
-<td align="left">rambo</td>
-<td align="right">18</td>
-<td align="right">18</td>
-</tr>
-<tr class="odd">
-<td align="left">ramongo</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">reo</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="odd">
-<td align="left">rollo</td>
-<td align="right">20</td>
-<td align="right">20</td>
-</tr>
-<tr class="even">
-<td align="left">rouko</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">saaba</td>
-<td align="right">5</td>
-<td align="right">5</td>
-</tr>
-<tr class="even">
-<td align="left">sabce</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">sabou</td>
-<td align="right">7</td>
-<td align="right">7</td>
-</tr>
-<tr class="even">
-<td align="left">safane</td>
-<td align="right">37</td>
-<td align="right">37</td>
-</tr>
-<tr class="odd">
-<td align="left">samba</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">samogohiri</td>
-<td align="right">3</td>
-<td align="right">3</td>
-</tr>
-<tr class="odd">
-<td align="left">samorogouan</td>
-<td align="right">5</td>
-<td align="right">5</td>
-</tr>
-<tr class="even">
-<td align="left">sampelga</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">sanaba</td>
-<td align="right">7</td>
-<td align="right">7</td>
-</tr>
-<tr class="even">
-<td align="left">sapone</td>
-<td align="right">22</td>
-<td align="right">22</td>
-</tr>
-<tr class="odd">
-<td align="left">sapouy</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="even">
-<td align="left">sebba</td>
-<td align="right">173</td>
-<td align="right">173</td>
-</tr>
-<tr class="odd">
-<td align="left">seguenega</td>
-<td align="right">24</td>
-<td align="right">24</td>
-</tr>
-<tr class="even">
-<td align="left">sideradougou</td>
-<td align="right">20</td>
-<td align="right">20</td>
-</tr>
-<tr class="odd">
-<td align="left">sindou</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">soaw</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">solenzo</td>
-<td align="right">84</td>
-<td align="right">84</td>
-</tr>
-<tr class="even">
-<td align="left">solhan</td>
-<td align="right">18</td>
-<td align="right">18</td>
-</tr>
-<tr class="odd">
-<td align="left">solle</td>
-<td align="right">21</td>
-<td align="right">21</td>
-</tr>
-<tr class="even">
-<td align="left">soubakaniedougou</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">sourgou</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">sourgoubila</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">tambaga</td>
-<td align="right">40</td>
-<td align="right">40</td>
-</tr>
-<tr class="even">
-<td align="left">tankougounadie</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">tansarga</td>
-<td align="right">17</td>
-<td align="right">17</td>
-</tr>
-<tr class="even">
-<td align="left">tcheriba</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="odd">
-<td align="left">tenkodogo</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">tensobentenga</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">thion</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">thiou</td>
-<td align="right">36</td>
-<td align="right">36</td>
-</tr>
-<tr class="odd">
-<td align="left">tibga</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="even">
-<td align="left">tiefora</td>
-<td align="right">22</td>
-<td align="right">22</td>
-</tr>
-<tr class="odd">
-<td align="left">tikare</td>
-<td align="right">23</td>
-<td align="right">23</td>
-</tr>
-<tr class="even">
-<td align="left">tin_akoff</td>
-<td align="right">11</td>
-<td align="right">11</td>
-</tr>
-<tr class="odd">
-<td align="left">titabe</td>
-<td align="right">32</td>
-<td align="right">32</td>
-</tr>
-<tr class="even">
-<td align="left">titao</td>
-<td align="right">129</td>
-<td align="right">129</td>
-</tr>
-<tr class="odd">
-<td align="left">toece</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">toeghin</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">toeni</td>
-<td align="right">13</td>
-<td align="right">13</td>
-</tr>
-<tr class="even">
-<td align="left">toma</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">tougan</td>
-<td align="right">149</td>
-<td align="right">149</td>
-</tr>
-<tr class="even">
-<td align="left">tougo</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="odd">
-<td align="left">tougouri</td>
-<td align="right">48</td>
-<td align="right">48</td>
-</tr>
-<tr class="even">
-<td align="left">yaba</td>
-<td align="right">40</td>
-<td align="right">40</td>
-</tr>
-<tr class="odd">
-<td align="left">yaho</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">yako</td>
-<td align="right">53</td>
-<td align="right">53</td>
-</tr>
-<tr class="odd">
-<td align="left">yalgo</td>
-<td align="right">66</td>
-<td align="right">66</td>
-</tr>
-<tr class="even">
-<td align="left">ye</td>
-<td align="right">44</td>
-<td align="right">44</td>
-</tr>
-<tr class="odd">
-<td align="left">yonde</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">zabre</td>
-<td align="right">16</td>
-<td align="right">16</td>
-</tr>
-<tr class="odd">
-<td align="left">zam</td>
-<td align="right">11</td>
-<td align="right">11</td>
-</tr>
-<tr class="even">
-<td align="left">zambo</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="odd">
-<td align="left">zeguedeguin</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">ziga</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">zimtenga</td>
-<td align="right">9</td>
-<td align="right">9</td>
-</tr>
-<tr class="even">
-<td align="left">ziniare</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">zitenga</td>
-<td align="right">8</td>
-<td align="right">8</td>
-</tr>
-<tr class="even">
-<td align="left">zogore</td>
-<td align="right">12</td>
-<td align="right">12</td>
-</tr>
-<tr class="odd">
-<td align="left">zorgho</td>
-<td align="right">14</td>
-<td align="right">14</td>
-</tr>
-<tr class="even">
-<td align="left">zoungou</td>
-<td align="right">14</td>
-<td align="right">14</td>
+<td align="left">3ème Lagon</td>
+<td align="right">76</td>
+<td align="right">76</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="variable-ic_genre" class="section level4">
-<h4>Variable: <em>ic_genre</em></h4>
+<div id="variable-localite" class="section level4">
+<h4>Variable: <em>Localite</em></h4>
 <table>
 <thead>
 <tr class="header">
@@ -1490,220 +269,581 @@ code > span.ot { color: #007020; }
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">femme</td>
-<td align="right">1797</td>
-<td align="right">1797</td>
+<td align="left">Atrel ( bas trou lajan )</td>
+<td align="right">1</td>
+<td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">homme</td>
-<td align="right">4159</td>
-<td align="right">4159</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="variable-chef_menage" class="section level4">
-<h4>Variable: <em>chef_menage</em></h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Categories</th>
-<th align="right">Original data</th>
-<th align="right">Modified data</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">non</td>
-<td align="right">1586</td>
-<td align="right">1586</td>
-</tr>
-<tr class="even">
-<td align="left">oui</td>
-<td align="right">4370</td>
-<td align="right">4370</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="variable-situation_matrimoniale" class="section level4">
-<h4>Variable: <em>situation_matrimoniale</em></h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Categories</th>
-<th align="right">Original data</th>
-<th align="right">Modified data</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">celibataire</td>
-<td align="right">88</td>
-<td align="right">88</td>
-</tr>
-<tr class="even">
-<td align="left">divorce</td>
-<td align="right">26</td>
-<td align="right">26</td>
-</tr>
-<tr class="odd">
-<td align="left">encouple</td>
-<td align="right">251</td>
-<td align="right">251</td>
-</tr>
-<tr class="even">
-<td align="left">marie_monogame</td>
-<td align="right">3276</td>
-<td align="right">3276</td>
-</tr>
-<tr class="odd">
-<td align="left">marie_polygame</td>
-<td align="right">2023</td>
-<td align="right">2023</td>
-</tr>
-<tr class="even">
-<td align="left">marie_veuf</td>
-<td align="right">292</td>
-<td align="right">292</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="variable-profession_chef" class="section level4">
-<h4>Variable: <em>profession_chef</em></h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Categories</th>
-<th align="right">Original data</th>
-<th align="right">Modified data</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">agriculteur</td>
-<td align="right">4014</td>
-<td align="right">4014</td>
-</tr>
-<tr class="even">
-<td align="left">autre</td>
-<td align="right">60</td>
-<td align="right">60</td>
-</tr>
-<tr class="odd">
-<td align="left">chef</td>
-<td align="right">14</td>
-<td align="right">14</td>
-</tr>
-<tr class="even">
-<td align="left">chomeur</td>
-<td align="right">70</td>
-<td align="right">70</td>
-</tr>
-<tr class="odd">
-<td align="left">commercant</td>
-<td align="right">393</td>
-<td align="right">393</td>
-</tr>
-<tr class="even">
-<td align="left">eleveur</td>
-<td align="right">181</td>
-<td align="right">181</td>
-</tr>
-<tr class="odd">
-<td align="left">etudiant</td>
-<td align="right">47</td>
-<td align="right">47</td>
-</tr>
-<tr class="even">
-<td align="left">fonctionnaire</td>
-<td align="right">133</td>
-<td align="right">133</td>
-</tr>
-<tr class="odd">
-<td align="left">independant</td>
-<td align="right">555</td>
-<td align="right">555</td>
-</tr>
-<tr class="even">
-<td align="left">pecheur_chasseur</td>
+<td align="left">Atrel ( trou lajan )</td>
 <td align="right">1</td>
 <td align="right">1</td>
 </tr>
 <tr class="odd">
-<td align="left">prive</td>
-<td align="right">133</td>
-<td align="right">133</td>
+<td align="left">Atrel la rodée</td>
+<td align="right">1</td>
+<td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">professeur</td>
-<td align="right">101</td>
-<td align="right">101</td>
-</tr>
-<tr class="odd">
-<td align="left">profession_non</td>
-<td align="right">216</td>
-<td align="right">216</td>
-</tr>
-<tr class="even">
-<td align="left">sans_reponse</td>
+<td align="left">Atrel Platon Nelta</td>
 <td align="right">1</td>
 <td align="right">1</td>
 </tr>
 <tr class="odd">
-<td align="left">transporteur</td>
-<td align="right">37</td>
-<td align="right">37</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="variable-group_pop" class="section level4">
-<h4>Variable: <em>group_pop</em></h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Categories</th>
-<th align="right">Original data</th>
-<th align="right">Modified data</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">migrant_burkina</td>
-<td align="right">92</td>
-<td align="right">92</td>
+<td align="left">Atrel Trou Lajan</td>
+<td align="right">2</td>
+<td align="right">2</td>
 </tr>
 <tr class="even">
-<td align="left">migrant_int</td>
+<td align="left">bambou</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Bas Bivak</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">bas gromorne</td>
 <td align="right">2</td>
 <td align="right">2</td>
 </tr>
 <tr class="odd">
-<td align="left">pdi</td>
-<td align="right">1757</td>
-<td align="right">1757</td>
+<td align="left">Bas gros morne</td>
+<td align="right">1</td>
+<td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">pop_local</td>
-<td align="right">4066</td>
-<td align="right">4066</td>
+<td align="left">Bas kèkètè</td>
+<td align="right">1</td>
+<td align="right">1</td>
 </tr>
 <tr class="odd">
-<td align="left">rapatrie</td>
+<td align="left">bas lagon</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Bas lagon</td>
+<td align="right">4</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="left">Bas trankil</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">Beau Seigneur</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">Belvi</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Bois blanc</td>
+<td align="right">6</td>
+<td align="right">6</td>
+</tr>
+<tr class="odd">
+<td align="left">Bois Blanc</td>
 <td align="right">3</td>
 <td align="right">3</td>
 </tr>
 <tr class="even">
-<td align="left">refugie</td>
-<td align="right">11</td>
-<td align="right">11</td>
+<td align="left">Bois d’homme</td>
+<td align="right">4</td>
+<td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="left">retourne</td>
-<td align="right">25</td>
-<td align="right">25</td>
+<td align="left">Boucan Boeuf</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Chapinau</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Chevalier</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Chomon</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">debarierre</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">Debarierre</td>
+<td align="right">4</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="left">Debarriere</td>
+<td align="right">6</td>
+<td align="right">6</td>
+</tr>
+<tr class="even">
+<td align="left">Derrière fort</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Desire</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Dieudon</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Digotri</td>
+<td align="right">8</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="left">Dimiray</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Fon Bawon</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Gentille</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Glacy</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Gran lakou</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Gros Baronne</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Haut-Platon</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Hilaire</td>
+<td align="right">5</td>
+<td align="right">5</td>
+</tr>
+<tr class="even">
+<td align="left">Kawa</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Kokoye</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">L’Arbre. Moule a Manchette</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">la hatte</td>
+<td align="right">10</td>
+<td align="right">10</td>
+</tr>
+<tr class="even">
+<td align="left">La hatte</td>
+<td align="right">9</td>
+<td align="right">9</td>
+</tr>
+<tr class="odd">
+<td align="left">La Valée</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">La visite</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">La Visite</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">Leksandrine</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">lusette</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Lusette</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Macapin</td>
+<td align="right">4</td>
+<td align="right">4</td>
+</tr>
+<tr class="even">
+<td align="left">Mahautière</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Marie-Rose</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Marie Rose</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">mon bayard</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">mòn kayimit</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Monbayard</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Morne Antoine</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">morne kayimit</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Morne kayimit</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Moule a manchette</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">nalan</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Nalan</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Nan bambou</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Nan banbou</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Nan citron</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Nan Dal</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Nan Fon</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Nan moulen</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Nan Sos</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Nan tuyo</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">Nanb Francois</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Orangé</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Orangé (Gros Baronne)</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Orangé Blin</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">Orangé Mahotyè</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Oranger</td>
+<td align="right">8</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="left">Oranger Blin</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">Platon Delivrance</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">Platon kajou</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Platon Tache</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Riske</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Rocher</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Rocher1</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Rocher2</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">Rue Saint Joseph</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Sarazin</td>
+<td align="right">5</td>
+<td align="right">5</td>
+</tr>
+<tr class="even">
+<td align="left">Savance Agée</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Savanne Agée</td>
+<td align="right">8</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="left">Savanne Patier</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Savnne Agée</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Savonet Domingue</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">savonèt Domingue</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Tanté</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">Tè sable</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Tè Sable</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Ti saline</td>
+<td align="right">4</td>
+<td align="right">4</td>
+</tr>
+<tr class="even">
+<td align="left">Toubouca</td>
+<td align="right">2</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">trankil</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Trankil</td>
+<td align="right">3</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">Yaya</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Zèbaflech</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="variable-chef_de_menage" class="section level4">
+<h4>Variable: <em>chef_de_menage</em></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Categories</th>
+<th align="right">Original data</th>
+<th align="right">Modified data</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Non</td>
+<td align="right">46</td>
+<td align="right">46</td>
+</tr>
+<tr class="even">
+<td align="left">Oui</td>
+<td align="right">163</td>
+<td align="right">163</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="variable-sexe_chef_menage" class="section level4">
+<h4>Variable: <em>Sexe_chef_menage</em></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Categories</th>
+<th align="right">Original data</th>
+<th align="right">Modified data</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">F</td>
+<td align="right">90</td>
+<td align="right">90</td>
+</tr>
+<tr class="even">
+<td align="left">H</td>
+<td align="right">119</td>
+<td align="right">119</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="variable-commune" class="section level4">
+<h4>Variable: <em>Commune</em></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Categories</th>
+<th align="right">Original data</th>
+<th align="right">Modified data</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Anse Rouge</td>
+<td align="right">87</td>
+<td align="right">87</td>
+</tr>
+<tr class="even">
+<td align="left">Terre Neuve</td>
+<td align="right">122</td>
+<td align="right">122</td>
 </tr>
 </tbody>
 </table>
@@ -1732,11 +872,11 @@ code > span.ot { color: #007020; }
 </div>
 <div id="other-attached-packages" class="section level3">
 <h3>Other attached packages</h3>
-<p><em>forcats (0.4.0)</em> | <em>stringr (1.4.0)</em> | <em>dplyr (0.8.3)</em> | <em>purrr (0.3.3)</em> | <em>readr (1.3.1)</em> | <em>tidyr (1.0.0)</em> | <em>tibble (2.1.3)</em> | <em>ggplot2 (3.2.1)</em> | <em>tidyverse (1.3.0)</em> | <em>sdcMicro (5.5.0)</em> | <em>readxl (1.3.1)</em></p>
+<p><em>forcats (0.4.0)</em> | <em>stringr (1.4.0)</em> | <em>dplyr (0.8.3)</em> | <em>purrr (0.3.3)</em> | <em>readr (1.3.1)</em> | <em>tidyr (1.0.0)</em> | <em>tibble (2.1.3)</em> | <em>ggplot2 (3.2.1)</em> | <em>tidyverse (1.3.0)</em> | <em>readxl (1.3.1)</em> | <em>sdcMicro (5.5.0)</em></p>
 </div>
 <div id="packages-loaded-via-namespace-but-not-attached" class="section level3">
 <h3>Packages loaded via Namespace (but not attached)</h3>
-<p><em>Rcpp (1.0.1)</em> | <em>lubridate (1.7.4)</em> | <em>lattice (0.20-38)</em> | <em>assertthat (0.2.1)</em> | <em>zeallot (0.1.0)</em> | <em>digest (0.6.20)</em> | <em>mime (0.7)</em> | <em>R6 (2.4.0)</em> | <em>cellranger (1.1.0)</em> | <em>backports (1.1.4)</em> | <em>reprex (0.3.0)</em> | <em>evaluate (0.14)</em> | <em>highr (0.8)</em> | <em>httr (1.4.1)</em> | <em>pillar (1.4.2)</em> | <em>rlang (0.4.2)</em> | <em>lazyeval (0.2.2)</em> | <em>rstudioapi (0.10)</em> | <em>data.table (1.12.2)</em> | <em>DT (0.7)</em> | <em>rmarkdown (1.13)</em> | <em>htmlwidgets (1.5.1)</em> | <em>munsell (0.5.0)</em> | <em>shiny (1.4.0)</em> | <em>broom (0.5.2)</em> | <em>modelr (0.1.5)</em> | <em>compiler (3.6.2)</em> | <em>httpuv (1.5.2)</em> | <em>xfun (0.8)</em> | <em>pkgconfig (2.0.2)</em> | <em>htmltools (0.4.0)</em> | <em>tidyselect (0.2.5)</em> | <em>withr (2.1.2)</em> | <em>crayon (1.3.4)</em> | <em>dbplyr (1.4.2)</em> | <em>later (0.8.0)</em> | <em>shinyBS (0.61)</em> | <em>MASS (7.3-51.4)</em> | <em>grid (3.6.2)</em> | <em>nlme (3.1-142)</em> | <em>jsonlite (1.6)</em> | <em>xtable (1.8-4)</em> | <em>gtable (0.3.0)</em> | <em>lifecycle (0.1.0)</em> | <em>DBI (1.0.0)</em> | <em>magrittr (1.5)</em> | <em>scales (1.0.0)</em> | <em>cli (1.1.0)</em> | <em>stringi (1.4.3)</em> | <em>carData (3.0-2)</em> | <em>fs (1.3.1)</em> | <em>promises (1.0.1)</em> | <em>robustbase (0.93-5)</em> | <em>rhandsontable (0.3.7)</em> | <em>xml2 (1.2.2)</em> | <em>vctrs (0.2.1)</em> | <em>generics (0.0.2)</em> | <em>tools (3.6.2)</em> | <em>glue (1.3.1)</em> | <em>DEoptimR (1.0-8)</em> | <em>hms (0.5.3)</em> | <em>prettydoc (0.2.1)</em> | <em>yaml (2.2.0)</em> | <em>fastmap (1.0.1)</em> | <em>colorspace (1.4-1)</em> | <em>cluster (2.1.0)</em> | <em>rvest (0.3.5)</em> | <em>knitr (1.23)</em> | <em>haven (2.2.0)</em></p>
+<p><em>Rcpp (1.0.1)</em> | <em>lubridate (1.7.4)</em> | <em>lattice (0.20-38)</em> | <em>assertthat (0.2.1)</em> | <em>zeallot (0.1.0)</em> | <em>digest (0.6.20)</em> | <em>mime (0.7)</em> | <em>R6 (2.4.0)</em> | <em>cellranger (1.1.0)</em> | <em>backports (1.1.4)</em> | <em>reprex (0.3.0)</em> | <em>evaluate (0.14)</em> | <em>highr (0.8)</em> | <em>httr (1.4.1)</em> | <em>pillar (1.4.2)</em> | <em>rlang (0.4.2)</em> | <em>lazyeval (0.2.2)</em> | <em>rstudioapi (0.10)</em> | <em>data.table (1.12.2)</em> | <em>DT (0.7)</em> | <em>rmarkdown (1.13)</em> | <em>htmlwidgets (1.5.1)</em> | <em>munsell (0.5.0)</em> | <em>shiny (1.4.0)</em> | <em>broom (0.5.2)</em> | <em>modelr (0.1.5)</em> | <em>compiler (3.6.2)</em> | <em>httpuv (1.5.2)</em> | <em>xfun (0.8)</em> | <em>pkgconfig (2.0.2)</em> | <em>htmltools (0.4.0)</em> | <em>tidyselect (0.2.5)</em> | <em>withr (2.1.2)</em> | <em>crayon (1.3.4)</em> | <em>dbplyr (1.4.2)</em> | <em>later (0.8.0)</em> | <em>shinyBS (0.61)</em> | <em>MASS (7.3-51.4)</em> | <em>grid (3.6.2)</em> | <em>nlme (3.1-142)</em> | <em>jsonlite (1.6)</em> | <em>xtable (1.8-4)</em> | <em>gtable (0.3.0)</em> | <em>lifecycle (0.1.0)</em> | <em>DBI (1.0.0)</em> | <em>magrittr (1.5)</em> | <em>scales (1.0.0)</em> | <em>stringi (1.4.3)</em> | <em>cli (1.1.0)</em> | <em>carData (3.0-2)</em> | <em>fs (1.3.1)</em> | <em>promises (1.0.1)</em> | <em>robustbase (0.93-5)</em> | <em>rhandsontable (0.3.7)</em> | <em>xml2 (1.2.2)</em> | <em>vctrs (0.2.1)</em> | <em>generics (0.0.2)</em> | <em>tools (3.6.2)</em> | <em>glue (1.3.1)</em> | <em>DEoptimR (1.0-8)</em> | <em>hms (0.5.3)</em> | <em>prettydoc (0.2.1)</em> | <em>yaml (2.2.0)</em> | <em>fastmap (1.0.1)</em> | <em>colorspace (1.4-1)</em> | <em>cluster (2.1.0)</em> | <em>rvest (0.3.5)</em> | <em>knitr (1.23)</em> | <em>haven (2.2.0)</em></p>
 </div>
 </div>
 <div id="disclaimer" class="section level1">
@@ -1747,7 +887,7 @@ code > span.ot { color: #007020; }
 <li><a href="https://github.com/alexkowa/sdcMicro/issues"><strong>Issue-Tracker for sdcMicro</strong></a></li>
 </ul>
 <hr />
-<p>This report was generated on mer., 28/10/2020 at 12:53:52.</p>
+<p>This report was generated on lun., 07/12/2020 at 14:00:34.</p>
 </div>
     </section>
   </div>
